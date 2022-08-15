@@ -6,4 +6,27 @@ I expect that the project will be interesting, educational, and also a lot of pr
 
 Velcome [@sonishchenko](https://github.com/sonishchenko) 
 
+# Task 2 - Selectors
+<h1 align="center" color="red"> Subtask 1: Searching for selectors on the login pageList all the elements that are on the login page.</h1>
+
+<ul>
+  <li>*[@id="__next"]/form/div/div[1]</li>
+  <li>//*[@class="MuiCardContent-root"]</li>
+  <li>//child::div/h5</li>
+</ul>
+-------------------------------------------
+<ul>
+  <li>//*[@id="login"]</li>
+   <li>//input[@type="text"]</li>
+  <li>//child::input</li>
+  </ul>
+-------------------------------------------
+<ul>
+  <li>//*[@id="__next"]/form/div/div[2]/button/span[1]</li>
+   <li>//*[text()="Sign in"]</li>
+  <li>//child::span</li>
+  </ul>
+  
+
+<br><br>
 **Have a nice Day** <br>
