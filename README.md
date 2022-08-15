@@ -8,19 +8,22 @@ Velcome [@sonishchenko](https://github.com/sonishchenko)
 
 # Task 2 - Selectors
 <h1 align="center" color="red"> Subtask 1: Searching for selectors on the login pageList all the elements that are on the login page.</h1>
-
+<br>
+<h4>Searching for 'h5' title in the Scouts Panel</h4>
 <ul>
   <li>*[@id="__next"]/form/div/div[1]</li>
-  <li>//*[@class="MuiCardContent-root"]</li>
+  <li>//h5[text()='Scouts Panel']</li>
   <li>//child::div/h5</li>
 </ul>
 -------------------------------------------
+<h4>Searching for 'input' in the input field </h4>
 <ul>
   <li>//*[@id="login"]</li>
    <li>//input[@type="text"]</li>
   <li>//child::input</li>
   </ul>
 -------------------------------------------
+<h4>Searching for 'span' in the button </h4> 
 <ul>
   <li>//*[@id="__next"]/form/div/div[2]/button/span[1]</li>
    <li>//*[text()="Sign in"]</li>
