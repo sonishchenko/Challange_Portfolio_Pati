@@ -14,3 +14,4 @@ class LoginPage(BasePage):
 
     def click_on_the_element_button(self):
         self.click_on_the_element(self.sign_in_button_xpath)
+
