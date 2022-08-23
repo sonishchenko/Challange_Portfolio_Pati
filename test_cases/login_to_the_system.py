@@ -3,6 +3,7 @@ import time
 import unittest
 from selenium import webdriver
 
+from pages.Dashboard import DashBoard
 from pages.login_page import LoginPage
 from utils.settings import DRIVER_PATH, IMPLICITLY_WAIT
 
@@ -19,9 +20,12 @@ class TestLoginPage(unittest.TestCase):
 
     def test_log_in_to_the_system(self):
         user_login = LoginPage(self.driver)
+        user_login.title_of_page()
         user_login.type_in_email("user07@getnada.com")
         user_login.type_in_password("Test-1234")
         user_login.click_on_the_element_button()
+        dashboard_page = DashBoard(self.driver)
+        dashboard_page.title_of_page()
         time.sleep(5)
 
 
